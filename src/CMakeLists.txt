@@ -11,3 +11,5 @@ add_library(midi STATIC
     MIDI.h
     serialMIDI.h
 )
+
+target_include_directories(midi PUBLIC src)
