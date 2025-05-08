@@ -5,6 +5,4 @@ add_subdirectory(builder)
 
 setup_builder()
 
-add_subdirectory(external)
 add_subdirectory(src)
-add_subdirectory(test)
